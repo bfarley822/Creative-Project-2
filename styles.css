@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #ADD8E6;
+}
+
+.heading {
+  padding: 20px;
+  text-align: center;
+}
+
+.boxed {
+  text-align: center;
+  padding-top: 5px;
+  color: white;
+  background-color: #5F9EA0;
+}
+.boxed input {
+  padding-left: 5px;
+}
+
+.center {
+  text-align: center;
+}
+
+#boredResults {
+  padding: 5px;
+
+}
+#jokeResults {
+  padding: 5px;
+}
+#nameResults {
+  padding: 5px;
+}
+#genderResults {
+  padding: 5px;
+}

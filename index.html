@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Creative Project 2</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="heading">
+    <h1>I'm bored. What should I do?</h1>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md">
+        <div class="boxed">
+          <label>Filter by type?</label>
+          <input type="checkbox" id="typeCheck">
+
+          <p></p>
+          <select id="selectorType">
+            <option value="recreational">Recreational</option>
+            <option value="education">Education</option>
+            <option value="social">Social</option>
+            <option value="relaxation">Relaxation</option>
+            <option value="cooking">Cooking</option>
+            <option value="diy">DIY</option>
+            <option value="charity">Charity</option>
+            <option value="music">Music</option>
+            <option value="busywork">Busywork</option>
+          </select>
+          <p></p>
+
+          <hr>
+
+          <label>Filter by # of participants?</label>
+          <input type="checkbox" id="participantsCheck">
+
+          <p></p>
+          <input id="participantsInput" type="text" placeholder="Enter # of participants"></input>
+          <p></p>
+
+          <hr>
+
+          <label>Filter by price?</label>
+          <input type="checkbox" id="priceCheck">
+
+          <p></p>
+          <input id="priceInput" type="text" placeholder="Enter a price (0 - 60)"></input>
+          <p></p>
+
+          <hr>
+
+          <div class="center">
+            <button type="button" class="btn btn-primary" id="boredSubmit">Generate Idea</button>
+          </div>
+
+          <div id="boredResults">
+          </div>
+          <hr>
+        </div>
+      </div>
+      <div class="col-md">
+        <div class="boxed">
+          <p></p>
+          <div class="center">
+            <button type="button" class="btn btn-primary" id="jokeSubmit">Generate Joke</button>
+          </div>
+          <div id="jokeResults">
+          </div>
+          <hr>
+        </div>
+      </div>
+      <div class="col-md">
+        <div class="boxed">
+          <p></p>
+          <input id="nameInput" type="text" placeholder="Enter a name"></input>
+          <p></p>
+
+          <hr>
+
+          <div class="center">
+            <button type="button" class="btn btn-primary" id="nameSubmit">Guess Age</button>
+          </div>
+          <div id="nameResults">
+          </div>
+
+          <hr>
+
+          <p></p>
+          <div class="center">
+          <button type="button" class="btn btn-primary" id="genderSubmit">Guess Gender</button>
+          </div>
+          <div id="genderResults">
+          </div>
+          <hr>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--
+  <p></p>
+  <button type="button" class="btn btn-primary" id="memeSubmit">Generate Meme</button>
+  <div id="memeResults">
+  </div>
+  -->
+
+  <div style="margin-top:40px;">
+    <div class="navbar fixed-bottom navbar-expand-lg navbar-dark" style="background-color: #5F9EA0;">
+      <footer class="bg-light text-center text-lg-start">
+        <div class="input" style="background-color: #5F9EA0;">
+          <a class="text-light" href="https://github.com/BYUCS260/weather-app-bfarley822" style="text-decoration: none; padding-left:20px;">Github classroom link</a>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js" integrity="sha256-4iQZ6BVL4qNKlQ27TExEhBN1HFPvAvAMbFavKKosSWQ=" crossorigin="anonymous"></script>
+  <script text="type/javascript" src="script.js">
+  </script>
+
+</body>
+
+</html>
